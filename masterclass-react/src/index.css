@@ -7,6 +7,10 @@ body{
     color: #ffffff;
     text-align: center;
 
-    
+
     background-color: #444;
+}
+
+h1,h2{
+    font-weight: 300;
 }
