@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom'
 
 import './index.css'
 
+import './Components/First'
+import First from './Components/First'
 
 ReactDOM.render(
 
-    <h1>Hello World</h1>,
+    <First></First>,
     document.getElementById('root')
 )
