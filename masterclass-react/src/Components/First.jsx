@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-function First(){
+export default function (){
 
     return (
     
@@ -11,5 +11,3 @@ function First(){
     </>
     )
 }
-
-export default First
