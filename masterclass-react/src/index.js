@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom'
 
 import './index.css'
 
-import './Components/First'
 import First from './Components/First'
+import ComponentParameter from './Components/ComponentParameter'
 
 ReactDOM.render(
 
-    <First></First>,
+    <div>
+        <First/>
+        <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'></ComponentParameter>
+    </div>
+    ,
     document.getElementById('root')
 )
