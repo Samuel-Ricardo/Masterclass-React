@@ -10,7 +10,9 @@ ReactDOM.render(
 
     <div>
         <First/>
-        <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'></ComponentParameter>
+        <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
+
+        <ComponentParameter title='Segundo Titulo Bombástico'/>
     </div>
     ,
     document.getElementById('root')
