@@ -8,6 +8,7 @@ import ComponentParameter from './Components/ComponentParameter'
 import ChildrenComp from './Components/ChildrenComp'
 import Card from './Components/Layout/Card'
 import Repeat from './Components/Repeat'
+import Condicional from './Components/Condicional'
 
 export default props =>
 
@@ -58,6 +59,14 @@ export default props =>
         <Card   title='#04 - Repetiçao'>
         
             <Repeat/>
+        
+        </Card>
+
+        <Card   title='#05 - Condicional'>
+        
+            <Condicional number={10}/>
+
+            <Condicional number={1}/>
         
         </Card>
 
