@@ -13,6 +13,12 @@ ReactDOM.render(
 
     <div>
 
+        <Card   title='Primeiro Component'>
+           
+            <First/>
+           
+        </Card>
+
         <Card   title='Exercicio 01'>
             Contedudo do exercicio
         </Card>
