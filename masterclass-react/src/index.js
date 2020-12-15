@@ -10,12 +10,20 @@ import ChildrenComp from './Components/ChildrenComp'
 ReactDOM.render(
 
     <div>
+
+
+
+        
+
+
+
+
         {/*<First/>
         <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
 
-        <ComponentParameter title='Segundo Titulo Bombástico'/>*/}
-
-        <ChildrenComp>
+        <ComponentParameter title='Segundo Titulo Bombástico'/>
+        
+         <ChildrenComp>
             <ul>
                 <li>
                     Samuel
@@ -38,6 +46,10 @@ ReactDOM.render(
                 </li>
             </ul>
         </ChildrenComp>
+
+        */}
+
+       
 
     </div>
     ,
