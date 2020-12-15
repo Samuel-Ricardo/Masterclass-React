@@ -1,5 +1,5 @@
 
-export default (porps) => {
+export default (props) => {
 
     if(props.test){
 
