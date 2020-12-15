@@ -8,7 +8,7 @@ export default props =>
         {props.conteudo}
     </section>
 
-    <footer className = 'footer'>
+    <footer className = 'Footer'>
         {props.title}
     </footer>
 
