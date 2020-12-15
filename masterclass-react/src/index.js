@@ -2,18 +2,22 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import './index.css'
+import './Components/Layout/Card.css'
 
 import First from './Components/First'
 import ComponentParameter from './Components/ComponentParameter'
 import ChildrenComp from './Components/ChildrenComp'
+import Card from './Components/Layout/Card'
 
 ReactDOM.render(
 
     <div>
 
+        <Card   title='Exercicio 01'>
+            Contedudo do exercicio
+        </Card>
 
 
-        
 
 
 

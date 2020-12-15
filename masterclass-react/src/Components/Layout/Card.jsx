@@ -5,7 +5,7 @@ export default props =>
 <div className = 'Card'>
 
     <section className='Conteudo'>
-        {props.conteudo}
+        {props.children}
     </section>
 
     <footer className = 'Footer'>
