@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Components/Layout/Card.css'
+import './App.css'
 
 import First from './Components/First'
 import ComponentParameter from './Components/ComponentParameter'
