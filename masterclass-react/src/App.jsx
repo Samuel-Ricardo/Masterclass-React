@@ -12,21 +12,21 @@ export default props =>
 
     <div className='App'>
 
-        <Card   title='Primeiro Component'>
+        <Card   title='#01 - Primeiro Component'>
         
             <First/>
         
         </Card>
 
 
-        <Card   title='Component Com parametro'>
+        <Card   title='#02 - Component Com parametro'>
 
             <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
 
             <ComponentParameter title='Segundo Titulo Bombástico'/>
         </Card>
 
-        <Card   title='Componente com filhos'>
+        <Card   title='#03 - Componente com filhos'>
           
         <ChildrenComp>
             <ul>
@@ -52,10 +52,6 @@ export default props =>
             </ul>
         </ChildrenComp>
 
-        </Card>
-
-        <Card   title='Exercicio 01'>
-            Contedudo do exercicio
         </Card>
 
     </div>
