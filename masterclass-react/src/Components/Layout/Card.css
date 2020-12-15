@@ -4,3 +4,7 @@
     overflow: hidden;
 }
 
+.Card .Conteudo{
+    background-color: #fff;
+    color: #000;
+}
