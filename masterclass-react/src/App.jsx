@@ -9,7 +9,7 @@ import ComponentParameter from './Components/ComponentParameter'
 import ChildrenComp from './Components/ChildrenComp'
 import Card from './Components/Layout/Card'
 
-default export props =>
+export default props =>
 
     <div>
 
