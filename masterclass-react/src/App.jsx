@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-import './index.css'
 import './Components/Layout/Card.css'
 
 import First from './Components/First'
@@ -11,7 +9,7 @@ import Card from './Components/Layout/Card'
 
 export default props =>
 
-    <div>
+    <div className='App'>
 
         <Card   title='Primeiro Component'>
         
@@ -19,20 +17,16 @@ export default props =>
         
         </Card>
 
-        <Card   title='Exercicio 01'>
-            Contedudo do exercicio
+
+        <Card   title='Component Com parametro'>
+
+            <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
+
+            <ComponentParameter title='Segundo Titulo Bombástico'/>
         </Card>
 
-
-
-
-
-
-        {/*<First/>
-        <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
-
-        <ComponentParameter title='Segundo Titulo Bombástico'/>
-
+        <Card   title='Componente com filhos'>
+          
         <ChildrenComp>
             <ul>
                 <li>
@@ -57,8 +51,10 @@ export default props =>
             </ul>
         </ChildrenComp>
 
-        */}
+        </Card>
 
-
+        <Card   title='Exercicio 01'>
+            Contedudo do exercicio
+        </Card>
 
     </div>
