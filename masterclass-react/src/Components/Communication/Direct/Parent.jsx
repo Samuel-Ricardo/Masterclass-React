@@ -6,7 +6,7 @@ export default props =>
     <div>
         <ChildrenComp surname={...props}> <strong> Carlos </strong> </ChildrenComp>
 
-        <ChildrenComp surname='Silva'> Pedro </ChildrenComp>
+        <ChildrenComp surname={props.surname}> Pedro </ChildrenComp>
 
         <ChildrenComp surname='Silva'> Joana </ChildrenComp>
     </div>
