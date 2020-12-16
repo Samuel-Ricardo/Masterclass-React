@@ -1,5 +1,5 @@
 import React, { Children } from 'react'
-import './Children'
+import './ChildrenComp'
 
 export default props => 
 

@@ -10,7 +10,7 @@ import Card from './Components/Layout/Card'
 import Repeat from './Components/Basic/Repeat'
 import Condicional from './Components/Basic/Condicional'
 import CondicionalComIf from './Components/Basic/CondicionalComIf'
-import './Components/Communication/Direct/Parent'
+import Parent from'./Components/Communication/Direct/Parent'
 
 export default props =>
 
