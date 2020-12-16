@@ -1,12 +1,12 @@
-import React, { Children } from 'react'
-import './ChildrenComp'
+import React from 'react'
+import ChildrenComp from './ChildrenComp'
 
 export default props => 
 
     <div>
-        <Children surname='Silva'> <strong> Carlos </strong> </Children>
+        <ChildrenComp surname='Silva'> <strong> Carlos </strong> </ChildrenComp>
 
-        <Children surname='Silva'> Pedro </Children>
+        <ChildrenComp surname='Silva'> Pedro </ChildrenComp>
 
-        <Children surname='Silva'> Joana </Children>
+        <ChildrenComp surname='Silva'> Joana </ChildrenComp>
     </div>
