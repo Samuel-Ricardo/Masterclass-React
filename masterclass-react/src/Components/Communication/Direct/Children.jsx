@@ -3,5 +3,5 @@ import React from 'react'
 export default props => 
 
     <div>
-        <p>{props.surname}</p>
+        <p>{props.children} {props.surname}</p>
     </div>
