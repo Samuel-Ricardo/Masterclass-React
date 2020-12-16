@@ -10,6 +10,10 @@ export default props =>{
             console.log(number)
         }
 
-        
+        <div>
+
+            <h4> Gerar Valor </h4>
+                <Sub click= {atClick()} ></Sub>
+        </div>    
     )
 }
