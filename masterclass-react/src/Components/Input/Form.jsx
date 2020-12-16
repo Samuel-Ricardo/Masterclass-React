@@ -6,6 +6,6 @@ export default porps => {
 
     return(
 
-        <input type='text' value = {name}></input>
+        <input type='text' value = {name} readOnly></input>
     )
 }

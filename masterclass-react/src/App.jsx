@@ -12,6 +12,7 @@ import Condicional from './Components/Basic/Condicional'
 import CondicionalComIf from './Components/Basic/CondicionalComIf'
 import Parent from'./Components/Communication/Direct/Parent'
 import Super from './Components/Communication/Indirect/Super'
+import Form from './Components/Input/Form'
 
 export default props =>
 
@@ -93,5 +94,10 @@ export default props =>
     
         </Card>
 
+        <Card   title='#09 - input' color='#D2691E'>
+        
+            <Form/>
+    
+        </Card>
 
     </div>
