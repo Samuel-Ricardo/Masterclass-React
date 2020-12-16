@@ -3,7 +3,7 @@ import React from 'react'
 import './Components/Layout/Card.css'
 import './App.css'
 
-import First from './Components/First'
+import First from './Components/Basic/First'
 import ComponentParameter from './Components/Basic/ComponentParameter'
 import ChildrenComp from './Components/Basic/ChildrenComp'
 import Card from './Components/Layout/Card'
@@ -15,21 +15,21 @@ export default props =>
 
     <div className='App'>
 
-        <Card   title='#01 - Primeiro Component'>
+        <Card   title='#01 - Primeiro Component' color='#D2691E'>
         
             <First/>
         
         </Card>
 
 
-        <Card   title='#02 - Component Com parametro'>
+        <Card   title='#02 - Component Com parametro' color='#D2691E'>
 
             <ComponentParameter title='Titulo Bombástico' subtitle='Subtitulo Bombástico'/>
 
             <ComponentParameter title='Segundo Titulo Bombástico'/>
         </Card>
 
-        <Card   title='#03 - Componente com filhos'>
+        <Card   title='#03 - Componente com filhos' color='#D2691E'>
           
         <ChildrenComp>
             <ul>
@@ -57,13 +57,13 @@ export default props =>
 
         </Card>
 
-        <Card   title='#04 - Repetiçao'>
+        <Card   title='#04 - Repetiçao' color='#D2691E'>
         
             <Repeat/>
         
         </Card>
 
-        <Card   title='#05 - Condicional V1'>
+        <Card   title='#05 - Condicional V1' color='#D2691E'>
         
             <Condicional number={10}/>
 
@@ -71,7 +71,7 @@ export default props =>
         
         </Card>
 
-        <Card   title='#05 - Condicional V2'>
+        <Card   title='#05 - Condicional V2' color='#D2691E'>
         
         <CondicionalComIf number={2}/>
 
