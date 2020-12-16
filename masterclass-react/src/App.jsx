@@ -82,7 +82,7 @@ export default props =>
 
         <Card   title='#06 - Parentes e Filhos' color='#D2691E'>
         
-            <Parent/>
+            <Parent surname='Freitas' />
     
         </Card>
 
