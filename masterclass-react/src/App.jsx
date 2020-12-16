@@ -13,15 +13,20 @@ import CondicionalComIf from './Components/Basic/CondicionalComIf'
 import Parent from'./Components/Communication/Direct/Parent'
 import Super from './Components/Communication/Indirect/Super'
 import Form from './Components/Input/Form'
+import Counter from './Components/Counter/Counter'
 
 export default props =>
 
     <div className='App'>
 
+        <h1> Fundamentos ReactJS</h1>
+
+        <div className='cards'>
+
         <Card   title='#01 - Primeiro Component' color='#D2691E'>
         
             <First/>
-        
+    
         </Card>
 
 
@@ -33,30 +38,30 @@ export default props =>
         </Card>
 
         <Card   title='#03 - Componente com filhos' color='#D2691E'>
-          
-        <ChildrenComp>
-            <ul>
-                <li>
-                    Samuel
-                </li>
+        
+            <ChildrenComp>
+                <ul>
+                    <li>
+                        Samuel
+                    </li>
 
-                <li>
-                    Otávio
-                </li>
+                    <li>
+                        Otávio
+                    </li>
 
-                <li>
-                    Petra
-                </li>
+                    <li>
+                        Petra
+                    </li>
 
-                <li>
-                    Julia
-                </li>
+                    <li>
+                        Julia
+                    </li>
 
-                <li>
-                    Pedro
-                </li>
-            </ul>
-        </ChildrenComp>
+                    <li>
+                        Pedro
+                    </li>
+                </ul>
+            </ChildrenComp>
 
         </Card>
 
@@ -79,25 +84,27 @@ export default props =>
             <CondicionalComIf number={2}/>
 
             <CondicionalComIf number={5}/>
-    
+
         </Card>
 
         <Card   title='#07 - Comunicaçao Direta' color='#D2691E'>
         
             <Parent surname='Freitas' />
-    
+
         </Card>
 
         <Card   title='#08 - Comunicaçao Indireta' color='#D2691E'>
         
             <Super/>
-    
+
         </Card>
 
         <Card   title='#09 - input' color='#D2691E'>
         
             <Form/>
-    
+
         </Card>
 
+        </div>
+        
     </div>
