@@ -4,7 +4,7 @@ export default props =>{
 
     function clicked(){
 
-        props.atClick(Math.random)
+        props.atClick(Math.random(), "Gerado!")
     }
     
     return (
