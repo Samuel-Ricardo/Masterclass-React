@@ -4,12 +4,12 @@ import './Components/Layout/Card.css'
 import './App.css'
 
 import First from './Components/First'
-import ComponentParameter from './Components/ComponentParameter'
-import ChildrenComp from './Components/ChildrenComp'
+import ComponentParameter from './Components/Basic/ComponentParameter'
+import ChildrenComp from './Components/Basic/ChildrenComp'
 import Card from './Components/Layout/Card'
-import Repeat from './Components/Repeat'
-import Condicional from './Components/Condicional'
-import CondicionalComIf from './Components/CondicionalComIf'
+import Repeat from './Components/Basic/Repeat'
+import Condicional from './Components/Basic/Condicional'
+import CondicionalComIf from './Components/Basic/CondicionalComIf'
 
 export default props =>
 

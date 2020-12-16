@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductList from '../Data/Products'
+import ProductList from '../../Data/Products'
 
 export default (porps) =>{
 
