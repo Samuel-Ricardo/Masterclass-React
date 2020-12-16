@@ -21,7 +21,7 @@ export default props =>
 
         <h1> Fundamentos ReactJS</h1>
 
-        <div className='cards'>
+        <div className='Cards'>
 
         <Card   title='#01 - Primeiro Component' color='#D2691E'>
         
