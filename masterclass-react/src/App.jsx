@@ -72,7 +72,7 @@ export default props =>
         
         </Card>
 
-        <Card   title='#05 - Condicional V2' color='#D2691E'>
+        <Card   title='#06 - Condicional V2' color='#D2691E'>
         
             <CondicionalComIf number={2}/>
 
@@ -80,7 +80,7 @@ export default props =>
     
         </Card>
 
-        <Card   title='#06 - Parentes e Filhos' color='#D2691E'>
+        <Card   title='#07 - Parentes e Filhos' color='#D2691E'>
         
             <Parent surname='Freitas' />
     
