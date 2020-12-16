@@ -1,5 +1,9 @@
 import React from 'react'
 
+//Props é uma constante, nao pode ser alterada
+
+//Props => const props
+
 export default props => 
 
 <div className = 'Card'  style={
