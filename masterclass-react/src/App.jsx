@@ -11,6 +11,7 @@ import Repeat from './Components/Basic/Repeat'
 import Condicional from './Components/Basic/Condicional'
 import CondicionalComIf from './Components/Basic/CondicionalComIf'
 import Parent from'./Components/Communication/Direct/Parent'
+import Super from './Components/Communication/Indirect/Super'
 
 export default props =>
 
@@ -80,10 +81,17 @@ export default props =>
     
         </Card>
 
-        <Card   title='#07 - Parentes e Filhos' color='#D2691E'>
+        <Card   title='#07 - Comunicaçao Direta' color='#D2691E'>
         
             <Parent surname='Freitas' />
     
         </Card>
+
+        <Card   title='#07 - Comunicaçao Indireta' color='#D2691E'>
+        
+            <Super/>
+    
+        </Card>
+
 
     </div>
