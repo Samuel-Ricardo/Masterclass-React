@@ -4,7 +4,7 @@ import ChildrenComp from './ChildrenComp'
 export default props => 
 
     <div>
-        <ChildrenComp surname={...props}> <strong> Carlos </strong> </ChildrenComp>
+        <ChildrenComp {...props}> <strong> Carlos </strong> </ChildrenComp>
 
         <ChildrenComp surname={props.surname}> Pedro </ChildrenComp>
 
