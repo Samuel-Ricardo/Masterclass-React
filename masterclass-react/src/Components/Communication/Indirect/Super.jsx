@@ -3,7 +3,7 @@ import Sub from './Sub'
 
 export default props =>{
 
-    const [num, setNum] = React.useState(0)
+    const [num, setNum] = useState(0)
     const [text, setText] = React.useState('Valor ')
 
     function atClick(number, text){
