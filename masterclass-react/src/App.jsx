@@ -10,6 +10,7 @@ import Card from './Components/Layout/Card'
 import Repeat from './Components/Basic/Repeat'
 import Condicional from './Components/Basic/Condicional'
 import CondicionalComIf from './Components/Basic/CondicionalComIf'
+import './Components/Communication/Direct/Parent'
 
 export default props =>
 
@@ -73,10 +74,16 @@ export default props =>
 
         <Card   title='#05 - Condicional V2' color='#D2691E'>
         
-        <CondicionalComIf number={2}/>
+            <CondicionalComIf number={2}/>
 
-        <CondicionalComIf number={5}/>
+            <CondicionalComIf number={5}/>
     
-    </Card>
+        </Card>
+
+        <Card   title='#06 - Parentes e Filhos' color='#D2691E'>
+        
+            <Parent/>
+    
+        </Card>
 
     </div>
