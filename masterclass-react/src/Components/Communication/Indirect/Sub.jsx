@@ -4,6 +4,6 @@ export default props =>{
 
     return (
 
-        <button type='button' onClick={props.click}></button>
+        <button type='button' onClick={props.atClick}></button>
     )
 }
