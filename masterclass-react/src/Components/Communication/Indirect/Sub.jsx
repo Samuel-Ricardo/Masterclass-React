@@ -4,11 +4,11 @@ export default props =>{
 
     function clicked(){
 
-        re
+        props.atClick(Math.random)
     }
     
     return (
 
-        <button type='button' onClick={props.atClick}>Me clique</button>
+        <button type='button' onClick={clicked}>Me clique</button>
     )
 }
