@@ -1,5 +1,5 @@
-import React from './react'
+import React from 'react'
 
 export default props => 
 
-    <button onClick={props.atClick()}> props.children </button>
+    <button onClick={props.onClick}> {props.children} </button>

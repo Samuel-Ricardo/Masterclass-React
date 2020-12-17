@@ -3,6 +3,7 @@ import './Counter.css'
 
 import Display from './Display'
 import PassInput from './PassInput'
+import Button from './Button'
 
 export default class contador extends React.Component {
 
@@ -13,8 +14,8 @@ export default class contador extends React.Component {
     }
 
     setPass = (newPass) => {
-
-        return this.setState({
+    
+        this.setState({
             passo : newPass
         })
     }
@@ -25,8 +26,6 @@ export default class contador extends React.Component {
 
             value : this.state.value + this.state.passo
         })
-
-        console.log(this.state.value)
     }
 
     decrement = () => {
@@ -35,8 +34,6 @@ export default class contador extends React.Component {
 
             value : this.state.value - this.state.passo
         })
-
-        console.log(this.state.value)
     }
 
     render(){
@@ -54,8 +51,8 @@ export default class contador extends React.Component {
                 </header>
 
                 <section>
-                    <button onClick={this.increment}>+</button>
-                    <button onClick={this.decrement}>-</button>
+                    <Button onClick={this.increment}>+</Button>
+                    <Button onClick={this.decrement}>-</Button>
                 </section>
 
             </div>
