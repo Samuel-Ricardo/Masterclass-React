@@ -1,6 +1,8 @@
 import React from 'react'
 import './Counter.css'
 
+import Display from './Display'
+
 export default class contador extends React.Component {
 
     state = {
@@ -15,6 +17,8 @@ export default class contador extends React.Component {
 
             value : this.state.value + this.state.passo
         })
+
+        console.log(this.state.value)
     }
 
     decrement = () => {
@@ -23,6 +27,8 @@ export default class contador extends React.Component {
 
             value : this.state.value - this.state.passo
         })
+
+        console.log(this.state.value)
     }
 
     render(){
@@ -49,7 +55,7 @@ export default class contador extends React.Component {
                         />
                    </div>
 
-                    <h4>Valor: {this.state.value}</h4>
+                    <Display value = {this.state.value}/>
                 </header>
 
                 <section>
