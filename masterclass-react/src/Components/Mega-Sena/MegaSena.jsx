@@ -6,7 +6,7 @@ export default props => {
     const [numbers, setNumbers] = React.useState(Array(props.quantidadeDeNumeros).fill(0))
 
 
-    function generateNumbersThatDontExist(numbers){
+    function generateNumberThatDontExist(numbers){
 
         const min = props.min || 1;
         const max = props.max || 100;
@@ -17,7 +17,23 @@ export default props => {
         
         ? generateNumbersThatDontExist(numbers)
 
-        : generateNewNumber()
+        : generateNewNumbers()
+    }
+
+    function generateNewNumbers(){
+
+        const newArray = Array (props.quantidadeDeNumeros)
+        .fill(0)
+        .reduce((acumulator, e) => {
+            const newNumber = generateNewNumbers(acumulator)
+            console.log(acumulator, e, newNumber)
+
+                return [...acumulator, newNumber]
+        }, [])
+        .sort((a, b) => a-b) // crescent order
+
+        setNumbers(newNumber)
+        
     }
 
 
@@ -29,7 +45,7 @@ export default props => {
 
             <h3> {numbers.join(' ')}</h3>
 
-            <button onCLick={this.generateNubers}> Sortear </button>
+            <button onCLick={this.generateNewNumbers()}> Sortear </button>
 
         </div>
     )
