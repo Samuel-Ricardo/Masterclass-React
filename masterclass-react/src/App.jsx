@@ -14,6 +14,7 @@ import Parent from'./Components/Communication/Direct/Parent'
 import Super from './Components/Communication/Indirect/Super'
 import Form from './Components/Input/Form'
 import Counter from './Components/Counter/Counter'
+import MegaSena from './Components/Mega Sena/MegaSena '
 
 export default props =>
 
@@ -105,9 +106,15 @@ export default props =>
 
         </Card>
 
-        <Card   title='#10 - input' color='#D2691E'>
+        <Card   title='#10 - Contador' color='#D2691E'>
         
             <Counter passo ={10} value={1}/>
+
+        </Card>
+
+        <Card   title='#11 - Mega Sena' color='#D2691E'>
+        
+            <MegaSena quantidadeDeNumeros={6}/>
 
         </Card>
 
