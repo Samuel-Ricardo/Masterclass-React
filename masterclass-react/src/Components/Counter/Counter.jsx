@@ -2,10 +2,14 @@ import React from 'react'
 
 export default class contador extends React.Component {
 
-    state = {
+    constructor(props){
+        super(props)
 
-        passo: 1,
-        value: 0
+        this.state = {
+
+            passo: props.passo,
+            value: 0
+        }
     }
 
 
@@ -17,6 +21,7 @@ export default class contador extends React.Component {
 
                 <header>
                     <h2>Contador</h2>
+                    <h4>Passo: {this.state.passo}</h4>
                     <h4>Valor: {this.state.value}</h4>
                 </header>
 

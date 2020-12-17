@@ -107,7 +107,7 @@ export default props =>
 
         <Card   title='#10 - input' color='#D2691E'>
         
-            <Counter/>
+            <Counter passo ={10}/>
 
         </Card>
 
