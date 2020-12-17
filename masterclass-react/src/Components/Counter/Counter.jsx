@@ -11,7 +11,12 @@ export default class contador extends React.Component {
         value: this.props.value || 0
     }
 
-    
+    setPass = (newPass) => {
+
+        return this.setState({
+            passo : newPass
+        })
+    }
 
     increment = () => {
 
