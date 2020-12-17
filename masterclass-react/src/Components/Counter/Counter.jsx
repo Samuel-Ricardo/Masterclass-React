@@ -2,14 +2,10 @@ import React from 'react'
 
 export default class contador extends React.Component {
 
-    constructor(props){
-        super(props)
+    state = {
 
-        this.state = {
-
-            passo: props.passo,
-            value: 0
-        }
+        passo: this.props.passo || 1,
+        value: this.props.value || 0
     }
 
 
