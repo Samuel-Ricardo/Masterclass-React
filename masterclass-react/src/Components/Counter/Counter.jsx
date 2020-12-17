@@ -8,6 +8,14 @@ export default class contador extends React.Component {
         value: this.props.value || 0
     }
 
+    increment = () => {
+
+        this.setState({
+
+            value : this.state.value + this.state.passo
+        })
+    }
+
 
     render(){
 
