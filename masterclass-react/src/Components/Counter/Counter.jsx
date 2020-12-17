@@ -32,13 +32,28 @@ export default class contador extends React.Component {
 
                 <header>
                     <h2>Contador</h2>
-                    <h4>Passo: {this.state.passo}</h4>
+                   
+                   <div>
+                        <label for='passInput'>Passo: </label>
+
+                        <input 
+                            type="number"
+                            name="passInput" 
+                            id="passInput" 
+                            value= {this.state.passo} 
+                            onChange={e => this.setState({
+                                            passo : +e.target.value
+                                        })
+                                     }
+                        />
+                   </div>
+
                     <h4>Valor: {this.state.value}</h4>
                 </header>
 
                 <section>
                     <button onClick={this.increment}>+</button>
-                    <button onClick={this.decrement}>_</button>
+                    <button onClick={this.decrement}>-</button>
                 </section>
 
             </div>
