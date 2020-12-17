@@ -105,6 +105,12 @@ export default props =>
 
         </Card>
 
+        <Card   title='#10 - input' color='#D2691E'>
+        
+            <Counter/>
+
+        </Card>
+
         </div>
         
     </div>
