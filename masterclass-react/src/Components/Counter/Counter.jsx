@@ -19,7 +19,8 @@ export default class contador extends React.Component {
     decrement = () => {
 
         this.setState({
-            value: this.state.value - this.state.passo
+
+            value : this.state.value - this.state.passo
         })
     }
 
@@ -36,8 +37,8 @@ export default class contador extends React.Component {
                 </header>
 
                 <section>
-                    <button>+</button>
-                    <button>-</button>
+                    <button onClick={this.increment}>+</button>
+                    <button onClick={this.decrement}>_</button>
                 </section>
 
             </div>
