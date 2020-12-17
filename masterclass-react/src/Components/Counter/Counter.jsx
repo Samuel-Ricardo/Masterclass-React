@@ -1,4 +1,5 @@
 import React from 'react'
+import './Counter.css'
 
 export default class contador extends React.Component {
 
