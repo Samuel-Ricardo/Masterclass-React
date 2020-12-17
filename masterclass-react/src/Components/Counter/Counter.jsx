@@ -16,6 +16,12 @@ export default class contador extends React.Component {
         })
     }
 
+    decrement = () => {
+
+        this.setState({
+            value: this.state.value - this.state.passo
+        })
+    }
 
     render(){
 
