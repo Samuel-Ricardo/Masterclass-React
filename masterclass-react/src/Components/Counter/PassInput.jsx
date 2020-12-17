@@ -10,7 +10,7 @@ export default props =>
         name="passInput" 
         id="passInput" 
         value= {props.passo} 
-        onChange={e => props.changePass(e.target.value)}
+        onChange={e => props.setPass(+e.target.value)}
     />
-    
+
 </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import './Counter.css'
 
 import Display from './Display'
+import PassInput from './PassInput'
 
 export default class contador extends React.Component {
 
@@ -47,7 +48,7 @@ export default class contador extends React.Component {
                 <header>
                     <h2>Contador</h2>
                    
-                   
+                    <PassInput passo = {this.state.passo} setPass = {this.setPass}/>
 
                     <Display value = {this.state.value}/>
                 </header>
