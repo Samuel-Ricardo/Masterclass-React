@@ -14,7 +14,7 @@ import Parent from'./Components/Communication/Direct/Parent'
 import Super from './Components/Communication/Indirect/Super'
 import Form from './Components/Input/Form'
 import Counter from './Components/Counter/Counter'
-import MegaSena from './Components/Mega Sena/MegaSena '
+import MegaSena from './Components/Mega-Sena/MegaSena'
 
 export default props =>
 
