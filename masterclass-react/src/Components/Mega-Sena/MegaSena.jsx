@@ -15,7 +15,7 @@ export default props => {
 
         return numbers.includes(newNumber) 
         
-        ? generateNumbersThatDontExist(numbers)
+        ? generateNumberThatDontExist(numbers)
 
         : newNumber
     }
@@ -24,13 +24,13 @@ export default props => {
 
         const newArray = Array(props.quantidadeDeNumeros)
         .fill(0)
-        .reduce((acumulator, e) => {
+        .reduce((acumulator, actualElement) => {
             const newNumber = generateNumberThatDontExist(acumulator)
-            console.log(acumulator, e, newNumber)
+            console.log(acumulator, actualElement, newNumber)
 
                 return [...acumulator, newNumber]
         }, [])
-        .sort((a, b) => a-b)
+        .sort((a, b) => a-b) // ascending order // orden crescente //
         
         setNumbers(newArray)
     }
@@ -44,7 +44,7 @@ export default props => {
 
             <h3> {numbers.join(' ')}</h3>
 
-            <button onCLick={generateNewNumbers}> Sortear </button>
+            <button onClick={generateNewNumbers}> Sortear </button>
 
         </div>
     )
