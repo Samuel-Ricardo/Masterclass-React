@@ -11,6 +11,8 @@ export default class contador extends React.Component {
         value: this.props.value || 0
     }
 
+    
+
     increment = () => {
 
         this.setState({
@@ -40,20 +42,7 @@ export default class contador extends React.Component {
                 <header>
                     <h2>Contador</h2>
                    
-                   <div>
-                        <label for='passInput'>Passo: </label>
-
-                        <input 
-                            type="number"
-                            name="passInput" 
-                            id="passInput" 
-                            value= {this.state.passo} 
-                            onChange={e => this.setState({
-                                            passo : +e.target.value
-                                        })
-                                     }
-                        />
-                   </div>
+                   
 
                     <Display value = {this.state.value}/>
                 </header>
